@@ -14,5 +14,30 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Welcome');
 });
+
+Route::get('/hello', function () {
+    return 'Hello World';
+   });
+
+Route::get('/world', function () {
+    return 'World';
+   });
+   
+Route::get('/', function () {
+    return 'Selamat Datang';
+   });
+
+Route::get('/about', function () {
+    return 'Hilyatul Jannah 2341728018';
+   });
+
+Route::get('/user/{Hilya}', function ($name) {
+    return 'Hilyatul Jannah '.$name;
+    });
+    
+Route::get('/posts/{post}/comments/{comment}', function
+    ($postId, $commentId) {
+     return 'Pos ke-'.$postId." Komentar ke-: ".$commentId;
+    });
