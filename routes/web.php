@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\PageController;
+use App\Http\Controllers\PhotoController;
+use App\Http\Controllers\WelcomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -46,7 +49,29 @@ Route::get('/articles/{id}', function ($articleId) {
      return 'Halaman Artikel dengan ID - '.$articleId;
     });
 
-Route::get('/user/{name?}', function ($name=null) {
+Route::get('/user/{name?}', function ($name='John') {
         return 'Nama saya '.$name;
 });
+
+Route:: get('/hello', [WelcomeController::class, 'hello']);
+
+Route::get('/', [PageController::class, 'index']);
+Route::get('/about', [PageController::class, 'about']);
+Route::get('/articles/{$id}', [PageController::class, 'articles']);
+
+Route::resource('photo', PhotoController::class);
+Route::resource('photos', PhotoController::class)->only([
+    'index', 'show'
+   ]);
+   Route::resource('photos', PhotoController::class)->except([
+    'create', 'store', 'update', 'destroy'
+   ]);
+
+/*Route::get('/greeting', function() {
+    return view('blog.hello', ['name' => 'Hilyatul Jannah']);
+});*/
+
+Route::get('/greeting', [WelcomeController::class, 'greeting']);
+
+
 

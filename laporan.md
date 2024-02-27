@@ -66,7 +66,49 @@ Pada tampilan ini hanya muncul keterangan Nama saya karena saya tidak menginputk
 
 - route dengan url localhost/PWL_2024/public/user/NamaAnda. 
 
-Pada tampilan ini  muncul keterangan Nama saya Hilya karena saya  menginputkan nilai untuk parameter Nama 
+Pada tampilan ini  muncul keterangan Nama saya Hilya karena saya menginputkan nilai untuk parameter Nama 
 
 ![alt text](pictures/mynamehilya.png) 
 
+- mengubah route dengan url localhost/PWL_2024/public/user/. 
+
+Pada tampilan ini  muncul keterangan Nama saya John karena saya menginputkan nilai untuk parameter Nama dengan John
+
+![alt text](pictures/john.png) 
+
+# Controller
+
+- Membuat Controller
+![alt text](pictures/makecwelcome.png) 
+
+- Membuat controller hello
+![alt text](pictures/welcomeget.png) 
+![alt text](pictures/gethello.png) 
+
+- Modifikasi Controller
+![alt text](pictures/getbanyak.png) 
+![alt text](pictures/makepage.png) 
+![alt text](pictures/getkosong.png) 
+![alt text](pictures/aboutget.png) 
+![alt text](pictures/articelget.png) 
+
+- Modifikasi Single Action Controller
+![alt text](pictures/aboutcontroller.png) 
+![alt text](pictures/homecontroller.png) 
+![alt text](pictures/articlecontroller.png) 
+![alt text](pictures/getkosong.png) 
+![alt text](pictures/aboutget.png) 
+![alt text](pictures/articelget.png)
+
+# Resource Controller
+- Membuat controller
+![alt text](pictures/getkosong.png) 
+![alt text](pictures/listroute.png) 
+- Menampilkan "Hello, Hilyatul Jannah" dengan menggunakan view, dengan route memanggil view sesuai dengan nama file.
+![alt text](pictures/greeting.png)
+- File disimpan view dalam direktori blog. Menampilkan halaman yang sama seperti sebelumnya.
+![alt text](pictures/greeting.png)
+- Menggunakan controller untuk memanggil view. Routing akan memanggil controller terlebih dahulu, kemudian akan me-return view yang dituju.
+![alt text](pictures/greeting.png)
+- Mengubah hello.blade.php agar dapat menampilkan dua parameter.
+![alt text](pictures/greets.png)
