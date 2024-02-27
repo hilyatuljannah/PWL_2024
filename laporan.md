@@ -22,13 +22,13 @@ Pada tampilan halaman yang telah diketikkan sesuai dengan url, terdapat tulisan 
 
  Pada tampilan halaman yang telah diketikkan sesuai dengan url, terdapat tulisan "Selamat Datang" \
 
- ![alt text](welcome.png) \
+ ![alt text](pictures/welcome.png) \
 
  - route ‘/about’ yang akan menampilkan NIM dan nama Anda \
 
 Pada tampilan halaman yang telah diketikkan sesuai dengan url, terdapat tulisan "Nama : Hilyatul Jannah dan NIM : 2341728018" \
 
- ![alt text](about.png) \
+ ![alt text](pictures/about.png) \
 
 # route dengan parameter
 
@@ -36,25 +36,25 @@ Pada tampilan halaman yang telah diketikkan sesuai dengan url, terdapat tulisan 
 
 Pada tampilan halaman yang telah diketikkan sesuai dengan url, terdapat tulisan "Hilyatul Jannah Hilya" yang mana "Hilya" merupakan parameter yang dipanggil \
 
-![alt text](parameter.png) \
+![alt text](pictures/parameter.png) \
 
 - tampilan jika mengetikkan localhost/PWL_2024/public/user/ \
 
 Muncul tulisan 404 NOT FOUND, dikarenakan kita tidak mencantumkan nilai parameternya \
 
-![alt text](notfound.png) \
+![alt text](pictures/notfound.png) \
 
 - route dengan 2 paramater \
 
 Pada tampilan ini muncul tulisan Pos ke-1 sesuai dengan post_id yang saya ketikkan dan komentar ke-5 sesuai dengan comment_id yang saya ketikkan \ 
 
-![alt text](parameters.png) \
+![alt text](pictures/parameters.png) \
 
 - route  /articles/{id} yang akan menampilkan output “Halaman Artikel dengan ID {id}” \
 
 Pada tampilan ini saya mengetikkan id dengan nilai 2, yang mana akan muncul tulisan Halaman Artikel dengan ID - 2 \
 
-![alt text](articles.png) \
+![alt text](pictures/articles.png) \
 
 # Paramater Opsional
 
@@ -62,11 +62,11 @@ Pada tampilan ini saya mengetikkan id dengan nilai 2, yang mana akan muncul tuli
 
 Pada tampilan ini hanya muncul keterangan Nama saya karena saya tidak menginputkan nilai untuk parameter Nama \
 
-![alt text](myname.png) \
+![alt text](pictures/myname.png) \
 
 - route dengan url localhost/PWL_2024/public/user/NamaAnda. \
 
 Pada tampilan ini  muncul keterangan Nama saya Hilya karena saya  menginputkan nilai untuk parameter Nama \
 
-![alt text](mynamehilya.png) \
+![alt text](pictures/mynamehilya.png) \
 
