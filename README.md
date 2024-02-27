@@ -34,3 +34,7 @@ Pada tampilan halaman yang telah diketikkan sesuai dengan url, terdapat tulisan 
 
 # route /user/{name} sekaligus mengirimkan parameter berupa nama user $name
 
+Pada tampilan halaman yang telah diketikkan sesuai dengan url, terdapat tulisan "Hilyatul Jannah Hilya" yang mana "Hilya" merupakan parameter yang dipanggil \
+
+
+![alt text](<parameter.png>) \
