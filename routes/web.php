@@ -30,7 +30,7 @@ Route::get('/', function () {
    });
 
 Route::get('/about', function () {
-    return 'Hilyatul Jannah 2341728018';
+    return 'Nama : Hilyatul Jannah, <br> NIM : 2341728018';
    });
 
 Route::get('/user/{Hilya}', function ($name) {
