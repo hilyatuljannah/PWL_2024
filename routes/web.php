@@ -33,11 +33,20 @@ Route::get('/about', function () {
     return 'Nama : Hilyatul Jannah, <br> NIM : 2341728018';
    });
 
-Route::get('/user/{Hilya}', function ($name) {
+/*Route::get('/user/{Hilya}', function ($name) {
     return 'Hilyatul Jannah '.$name;
-    });
+    }); */
     
 Route::get('/posts/{post}/comments/{comment}', function
     ($postId, $commentId) {
      return 'Pos ke-'.$postId." Komentar ke-: ".$commentId;
     });
+
+Route::get('/articles/{id}', function ($articleId) {
+     return 'Halaman Artikel dengan ID - '.$articleId;
+    });
+
+Route::get('/user/{name?}', function ($name=null) {
+        return 'Nama saya '.$name;
+});
+
