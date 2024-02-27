@@ -54,7 +54,7 @@ Pada tampilan ini muncul tulisan Pos ke-1 sesuai dengan post_id yang saya ketikk
 
 Pada tampilan ini saya mengetikkan id dengan nilai 2, yang mana akan muncul tulisan Halaman Artikel dengan ID - 2 \
 
-![alt text](pictures/articles.png) \
+![alt text](pictures/article.png) \
 
 # Paramater Opsional
 
