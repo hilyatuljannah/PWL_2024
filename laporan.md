@@ -110,5 +110,5 @@ Pada tampilan ini  muncul keterangan Nama saya John karena saya menginputkan nil
 ![alt text](pictures/greeting.png)
 - Menggunakan controller untuk memanggil view. Routing akan memanggil controller terlebih dahulu, kemudian akan me-return view yang dituju.
 ![alt text](pictures/greeting.png)
-- Mengubah hello.blade.php agar dapat menampilkan dua parameter.
+- Mengubah hello.blade.php agar dapat menampilkan dua parameter..
 ![alt text](pictures/greets.png)
